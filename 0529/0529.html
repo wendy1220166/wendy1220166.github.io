@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="20.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>
+        <header class="text-light bg-primary text-center">Customer message board </header>
+    </h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <form>
+                    <fieldset>
+                        <legend>User Information</legend>
+                        <label class="c font-weight-bold" for="uname">User Name:</label>
+                        <input class="b" type="text" name="uname" value="input your name" size="15" maxlength="10" required="required"><br>
+
+                        <label class="c font-weight-bold" for="umail">Email:</label>
+                        <input class="b" type="email" name="umail" value="input email address" size="15" maxlength="10" required="required"><br>
+
+                        <label class="c font-weight-bold" for="uphone">Phone:</label>
+                        <input class="b" type="tel" name="uphone" value="0900123456" size="15" maxlength="10" required="required"><br>
+
+                        <label for="upass">Password:</label>
+                        <input type="password" name="upass" value="865385" size="15" maxlength="10"><br>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="col-sm-6">
+                <form>
+                    <fieldset>
+                        <legend>Report Information</legend>
+                        <label for="rdate">Report Date:</label>
+                        <input type="date" name="rdate" value="年/月/日" size="15" maxlength="10">
+
+                        <label for="rtime">Report Time:</label>
+                        <input type="time" name="rtime" size="15" maxlength="10"><br>
+
+                        <label for="udescrip">Description:</label>
+                        <textarea name="descrip" id="udescrip" cols="40" rows="10"></textarea><br>
+
+
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <form>
+                    <fieldset>
+                        <input type="submit" value="提交">
+                        <input type="reset" value="重設">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
