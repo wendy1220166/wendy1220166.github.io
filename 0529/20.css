@@ -18,6 +18,10 @@ textarea {
     text-align: center
 }
 
-.f1 {
-    border: 3px, lightskyblue
+#f1 {
+    border: lightblue 3px solid
+}
+
+#f2 {
+    border: palevioletred 3px solid
 }

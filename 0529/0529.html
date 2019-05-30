@@ -19,8 +19,9 @@
     </h1>
 
     <div class="container">
-        <div class="row" class="f1">
-            <div class="col-sm-6">
+        <div class="row" id="f1">
+
+            <div class="col-sm-4">
                 <form action="" method="POST">
                     <fieldset>
                         <legend>User Information</legend>
@@ -38,6 +39,7 @@
                     </fieldset>
                 </form>
             </div>
+            <div class="col-sm-2"></div>
             <div class="col-sm-6">
                 <form>
                     <fieldset>
@@ -63,7 +65,10 @@
                 </form>
 
             </div>
-            <div class="col-sm-12" class="f2">
+        </div>
+        <br>
+        <div id="f2">
+            <div class="col-sm-12">
                 <form>
                     <fieldset class="a1">
                         <legend>Report Information</legend>
@@ -71,7 +76,18 @@
                         <input type="date" name="rdate" value="年/月/日" size="15" maxlength="10">
 
                         <label for="rtime">Report Time:</label>
-                        <input type="time" name="rtime" size="15" maxlength="10"><br>
+                        <input type="time" name="rtime" size="15" maxlength="10">
+
+                        <label>Report Type</label>
+                        <form>
+                            <select name="type">
+                                <option value="Service">Service</option>
+                                <option value="Direction for use">Direction for use</option>
+                                <option value="Defective products">Defective products</option>
+                                <option value="Others">Others</option>
+                                
+                            </select>
+                        </form>
 
                         <label for="udescrip">Description:</label>
                         <textarea name="descrip" id="udescrip" cols="40" rows="10"></textarea><br>
@@ -80,18 +96,23 @@
                     </fieldset>
                 </form>
             </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <form>
-                    <fieldset>
 
-                        <input type="submit" value="提交">
-                        <input type="reset" value="重設">
-                    </fieldset>
-                </form>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5"></div>
+                    <div class="col-sm-2">
+                        <form>
+                            <fieldset>
+
+                                <input type="submit" value="提交">
+                                <input type="reset" value="重設">
+                                <p>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <div class="col-sm-5"></div>
+                </div>
             </div>
         </div>
     </div>
