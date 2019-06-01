@@ -37,12 +37,50 @@
                         <label class="c font-weight-bold" for="uphone">Backup Phone:</label>
                         <input type="tel" name="mphone" value="08-7770000" size="15" maxlength="10" required="required"><br>
 
-                        <label class="c font-weight-bold" for="Uemail">Email:</label>
-                        <input type="email" name="Uemail" value="input email address" size="15" maxlength="10" required="required"><br>
+                        <form class="col">
+                            <div class="form-row">
+                                <div class="col-6">
 
+                                    <label class="col-sm-2 col-form-label" for="Uemail">Email</label>
+                                    <input type="email" name="Uemail" class="form-control" value="Email" required="required">
+                                </div>
+                                <div class="col">
+                                    <label for="upass" class="col-sm-2 col-form-label">Password:</label>
+                                    <input type="password" name="upass" class="form-control" value="865385"><br>
+                                </div>
 
-                        <label for="upass">Password:</label>
-                        <input type="password" name="upass" value="865385" size="15" maxlength="10"><br>
+                            </div>
+                        </form>
+
+                        <form class="col">
+                            <div class="form-row">
+                                <div class="col-6">
+
+                                    <label class="col-sm-2 col-form-label">Country</label>
+                                    <input type="Country" name="Country" class="form-control" required="required">
+                                </div>
+                                <div class="col">
+                                    <label>Location</label><br>
+                                    <select class="form-control" name="Location">
+                                            
+                                                <option value="Pingtung">Pingtung</option>
+                                                <option value="Kaoshiung">Kaoshiung</option>
+                                                <option value="Tainan">Tainan</option>
+                                                <option value="Others">Others</option>
+                                                
+                                     </select>
+                                </div>
+                                <div class="col">
+                                    <label class="col-sm-2 col-form-label">Zip</label>
+                                    <input type="Zip" name="Zip" class="form-control"><br>
+                                </div>
+                                <div class="col-12">
+
+                                    <label class="col-sm-2 col-form-label">Contract Address</label>
+                                    <input type="Contract Address" name="Contract Address" class="form-control" value="1234 Main St" required="required">
+                                </div>
+                            </div>
+                        </form>
                     </fieldset>
                 </form>
             </div>
