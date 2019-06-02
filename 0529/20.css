@@ -18,10 +18,8 @@ textarea {
     text-align: center
 }
 
-#f1 {
-    border: lightblue 3px solid
-}
-
-#f2 {
-    border: palevioletred 3px solid
+.d {
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
 }
