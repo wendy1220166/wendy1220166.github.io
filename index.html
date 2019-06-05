@@ -25,7 +25,6 @@
         font-family: 'Nanum Pen Script', cursive;
         font-size: 50px;
         text-transform: uppercase;
-        text-align: left
     }
     
     h5 {
@@ -33,6 +32,11 @@
         font-size: 30px;
         text-transform: uppercase;
         text-align: left
+    }
+    
+    body {
+        background-color: lightskyblue;
+        background-image: url("image/116.jpg")
     }
 </style>
 
@@ -44,7 +48,7 @@
             <a href="index.html" class="w3-bar-item w3-button">冠妤兒的網頁</a>
             <!-- Right-sided navbar links. Hide them on small screens -->
             <div class="w3-right w3-hide-small">
-                <a href="tryw3css_templates_gourmet_catering.htm#about" class="w3-bar-item w3-button">FOOD</a>
+                <a href="food.html" class="w3-bar-item w3-button">FOOD</a>
                 <a href="game.html" class="w3-bar-item w3-button">GAME</a>
                 <a href="photo.html" class="w3-bar-item w3-button">PHOTO</a>
             </div>
@@ -52,7 +56,7 @@
     </div>
 
     <!-- Header -->
-    <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="top">
         <img class="w3-image" src="image/139.jpg" alt="my best friend" width="1200" height="600">
         <div class="w3-display-bottomleft w3-padding-large w3-opacity">
             <h1 class="w3-xxlarge">My best friend</h1>
@@ -115,40 +119,9 @@
         </div>
 
         <hr>
-
-        <!-- friend Section --
-        <div class="w3-row w3-padding-64" id="menu">
-            <div class="w3-col l6 w3-padding-large">
-                <h1 class="w3-center">my best friend</h1><br>
-                <h4>Bread Basket</h4>
-                <img src="image/005.jpg" class="w3-round w3-image w3-opacity-min" alt="photo" style="width:100%">
-
-                <h4>Honey Almond Granola with Fruits</h4>
-                <img src="image/004.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
-
-                <h4>Belgian Waffle</h4>
-                <img src="image/006.jpg" class="w3-round w3-image w3-opacity-min" alt="photo" style="width:100%">
-
-                <h4>Scrambled eggs</h4>
-                <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
-
-                <h4>Blueberry Pancakes</h4>
-                <p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p>
-            </div>
-
-            <div class="w3-col l6 w3-padding-large">
-                <p></p>
-                <img src="image/006.jpg" class="w3-round w3-image w3-opacity-min" alt="photo" style="width:100%">
-                <img src="image/007.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
-                <img src="image/138.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
-            </div>
-        </div>
-
-        <hr>
->
         <!-- Project Section -->
         <div class="w3-container w3-padding-32" id="projects">
-            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">my best friend</h3>
+            <h1 class="w3-border-bottom w3-border-light-grey w3-padding-16">my best friend</h1>
         </div>
 
         <div class="w3-row-padding">
@@ -209,9 +182,9 @@
 
         <!-- Contact Section -->
         <div class="w3-container w3-padding-32" id="contact">
-            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+            <h1 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h1>
             <p>You can also contact us by email wendy1220166@yahoo.com.tw, or you can send us a message here:</p>
-            <form action="action_page.htm" target="_blank">
+            <form action="">
                 <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
                 <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
                 <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
@@ -228,7 +201,12 @@
 
     <!-- Footer -->
     <footer class="w3-center w3-light-grey w3-padding-32">
-        <p>Powered by <a href="default.htm" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+        <p>
+            <a href="#top">
+                <h1>GO TOP</h1>
+            </a>
+        </p>
+
     </footer>
 
 </body>

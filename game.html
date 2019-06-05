@@ -39,6 +39,11 @@
         text-align: center;
         font-size: 20px
     }
+    
+    body {
+        background-color: lightskyblue;
+        background-image: url("image/116.jpg")
+    }
 </style>
 
 <body>
@@ -49,15 +54,15 @@
             <a href="index.html" class="w3-bar-item w3-button">冠妤兒的網頁</a>
             <!-- Right-sided navbar links. Hide them on small screens -->
             <div class="w3-right w3-hide-small">
-                <a href="tryw3css_templates_gourmet_catering.htm#about" class="w3-bar-item w3-button">FOOD</a>
-                <a href="tryw3css_templates_gourmet_catering.htm#menu" class="w3-bar-item w3-button">GAME</a>
-                <a href="tryw3css_templates_gourmet_catering.htm#contact" class="w3-bar-item w3-button">PHOTO</a>
+                <a href="food.html" class="w3-bar-item w3-button">FOOD</a>
+                <a href="game.html" class="w3-bar-item w3-button">GAME</a>
+                <a href="photo.html" class="w3-bar-item w3-button">PHOTO</a>
             </div>
         </div>
     </div>
 
     <!-- Header -->
-    <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="top">
         <img class="w3-image" src="image/117.jpg" alt="my best friend" width="1200" height="600">
         <div class="w3-display-bottomleft w3-padding-large w3-opacity">
             <h1 class="w3-xxlarge">Game</h1>
@@ -70,7 +75,8 @@
         <!-- Photo grid (modal) -->
         <div class="w3-row-padding">
             <div class="w3-half">
-                <img src="image/118.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
+                <a href="#1">
+                    <img src="image/118.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks"></a>
                 <img src="image/119.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
                 <img src="image/120.jpg" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
             </div>
@@ -80,13 +86,13 @@
                 <img src="image/122.jpg" style="width:100%" onclick="onClick(this)" alt="Bedroom and office in one space">
                 <img src="image/123.jpg" style="width:100%" onclick="onClick(this)" alt="Scandinavian design">
             </div>
-            <h5>射手</h5>
-            <p>聶秋鷹.蕭若蘭<br>遠程/物理/群攻<br>70絕：百步穿楊<br>100絕：流星箭雨</p>
+            <p id="1">射手</p>
+            <p><br>聶秋鷹.蕭若蘭<br>遠程/物理/群攻<br>70絕：百步穿楊<br>100絕：流星箭雨</p>
             <hr>
-            <h5>甲士</h5>
+            <p>甲士</p>
             <p>霍擊蒙.石云馨<br>進戰/物理/高防<br>70絕：河鼓.震<br>100絕：青龍.滅</p>
             <hr>
-            <h5>方士</h5>
+            <p>方士</p>
             <p>莫忘塵.納蘭青桑<br>遠程/法術/群攻<br>70絕：飄風振海<br>100絕：雷火無妄</p>
 
             <div class="w3-half">
@@ -101,13 +107,13 @@
                 <img src="image/129.jpg" style="width:100%" onclick="onClick(this)" alt="Scandinavian design">
             </div>
 
-            <h5>醫師</h5>
+            <p>醫師</p>
             <p>步臨風.殷紫萍<br>遠程/法術/治療<br>70絕：懸壺濟世<br>100絕：十大功勞</p>
             <hr>
-            <h5>魅者</h5>
+            <p>魅者</p>
             <p>冷月心.風搖箏<br>遠程/法術/控制<br>70絕：四邊靜<br>100絕：黃鶴繞碧樹</p>
             <hr>
-            <h5>異人</h5>
+            <p>異人</p>
             <p>葉葬花.花漸隱<br>遠程/法術/召喚<br>70絕：群魔亂舞<br>100絕：冥鳳臨世</p>
 
             <div class="w3-half">
@@ -121,13 +127,13 @@
                 <img src="image/134.jpg" style="width:100%" onclick="onClick(this)" alt="Bedroom and office in one space">
                 <img src="image/135.jpg" style="width:100%" onclick="onClick(this)" alt="Scandinavian design">
             </div>
-            <h5>刀客</h5>
+            <p>刀客</p>
             <p>卓斷水.楊夢言<br>進戰/物理/單攻<br>70絕：狡兔三窟<br>100絕：怒龍爪</p>
             <hr>
-            <h5>俠士</h5>
+            <p>俠士</p>
             <p>洛昊空.沈傲霜<br>進戰/物理/輔助<br>70絕：五氣朝元<br>100絕：三花聚鼎</p>
             <hr>
-            <h5>偃師</h5>
+            <p>偃師</p>
             <p>檀無心.阮煙羅<br>中程/物理/召喚<br>70絕：化地之能<br>100絕：極天之邪</p>
 
         </div>
@@ -150,7 +156,7 @@
 
     <!-- Footer -->
     <footer class="w3-center w3-light-grey w3-padding-32">
-        <p>Powered by <a href="default.htm" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+        <p><a href="#top">GO TOP 回頂端</a></p>
     </footer>
 
 </body>
